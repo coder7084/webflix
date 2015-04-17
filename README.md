@@ -1,1 +1,1 @@
-Application using Zend Framework 2
+Application for ordering or renting movies using Zend Framework 2
