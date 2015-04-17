@@ -1,0 +1,111 @@
+[Fri Apr 17 00:07:48.300206 2015] [mpm_winnt:notice] [pid 7328:tid 468] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 00:07:48.300206 2015] [mpm_winnt:notice] [pid 7328:tid 468] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 00:07:48.300206 2015] [core:notice] [pid 7328:tid 468] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 00:07:48.300206 2015] [mpm_winnt:notice] [pid 7328:tid 468] AH00418: Parent: Created child process 5184
+[Fri Apr 17 00:07:48.877407 2015] [mpm_winnt:notice] [pid 5184:tid 344] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 00:07:55.273418 2015] [mpm_winnt:notice] [pid 7328:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 00:07:57.301422 2015] [mpm_winnt:notice] [pid 5184:tid 344] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 00:07:57.317022 2015] [mpm_winnt:notice] [pid 7328:tid 468] AH00430: Parent: Child process 5184 exited successfully.
+[Fri Apr 17 00:08:00.140627 2015] [mpm_winnt:notice] [pid 5056:tid 472] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 00:08:00.156227 2015] [mpm_winnt:notice] [pid 5056:tid 472] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 00:08:00.156227 2015] [core:notice] [pid 5056:tid 472] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 00:08:00.156227 2015] [mpm_winnt:notice] [pid 5056:tid 472] AH00418: Parent: Created child process 4804
+[Fri Apr 17 00:08:00.702228 2015] [mpm_winnt:notice] [pid 4804:tid 348] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 00:08:26.876474 2015] [mpm_winnt:notice] [pid 5056:tid 472] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 00:08:28.904478 2015] [mpm_winnt:notice] [pid 4804:tid 348] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 00:08:28.920078 2015] [mpm_winnt:notice] [pid 5056:tid 472] AH00430: Parent: Child process 4804 exited successfully.
+[Fri Apr 17 00:08:30.199280 2015] [mpm_winnt:notice] [pid 4336:tid 476] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 00:08:30.199280 2015] [mpm_winnt:notice] [pid 4336:tid 476] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 00:08:30.199280 2015] [core:notice] [pid 4336:tid 476] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 00:08:30.199280 2015] [mpm_winnt:notice] [pid 4336:tid 476] AH00418: Parent: Created child process 680
+[Fri Apr 17 00:08:30.760881 2015] [mpm_winnt:notice] [pid 680:tid 348] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 00:10:50.051127 2015] [mpm_winnt:notice] [pid 4336:tid 476] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 00:10:52.079131 2015] [mpm_winnt:notice] [pid 680:tid 348] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 00:10:52.094731 2015] [mpm_winnt:notice] [pid 4336:tid 476] AH00430: Parent: Child process 680 exited successfully.
+[Fri Apr 17 00:10:53.764640 2015] [mpm_winnt:notice] [pid 6512:tid 476] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 00:10:53.764640 2015] [mpm_winnt:notice] [pid 6512:tid 476] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 00:10:53.764640 2015] [core:notice] [pid 6512:tid 476] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 00:10:53.764640 2015] [mpm_winnt:notice] [pid 6512:tid 476] AH00418: Parent: Created child process 6920
+[Fri Apr 17 00:10:54.329241 2015] [mpm_winnt:notice] [pid 6920:tid 352] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 00:18:20.337833 2015] [mpm_winnt:notice] [pid 6512:tid 476] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 00:18:22.365836 2015] [mpm_winnt:notice] [pid 6920:tid 352] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 00:18:22.381436 2015] [mpm_winnt:notice] [pid 6512:tid 476] AH00430: Parent: Child process 6920 exited successfully.
+[Fri Apr 17 00:18:23.239438 2015] [mpm_winnt:notice] [pid 5612:tid 476] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 00:18:23.239438 2015] [mpm_winnt:notice] [pid 5612:tid 476] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 00:18:23.239438 2015] [core:notice] [pid 5612:tid 476] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 00:18:23.239438 2015] [mpm_winnt:notice] [pid 5612:tid 476] AH00418: Parent: Created child process 5528
+[Fri Apr 17 00:18:23.803039 2015] [mpm_winnt:notice] [pid 5528:tid 348] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 00:18:30.262252 2015] [mpm_winnt:notice] [pid 5612:tid 476] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 00:18:32.277070 2015] [mpm_winnt:notice] [pid 5528:tid 348] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 00:18:32.291070 2015] [mpm_winnt:notice] [pid 5612:tid 476] AH00430: Parent: Child process 5528 exited successfully.
+[Fri Apr 17 00:18:34.172307 2015] [mpm_winnt:notice] [pid 7704:tid 476] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 00:18:34.172307 2015] [mpm_winnt:notice] [pid 7704:tid 476] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 00:18:34.172307 2015] [core:notice] [pid 7704:tid 476] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 00:18:34.172307 2015] [mpm_winnt:notice] [pid 7704:tid 476] AH00418: Parent: Created child process 2928
+[Fri Apr 17 00:18:34.733908 2015] [mpm_winnt:notice] [pid 2928:tid 352] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 00:21:02.961415 2015] [mpm_winnt:notice] [pid 7704:tid 476] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 00:21:04.989419 2015] [mpm_winnt:notice] [pid 2928:tid 352] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 00:21:05.005019 2015] [mpm_winnt:notice] [pid 7704:tid 476] AH00430: Parent: Child process 2928 exited successfully.
+[Fri Apr 17 00:21:06.268621 2015] [mpm_winnt:notice] [pid 5592:tid 476] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 00:21:06.268621 2015] [mpm_winnt:notice] [pid 5592:tid 476] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 00:21:06.268621 2015] [core:notice] [pid 5592:tid 476] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 00:21:06.268621 2015] [mpm_winnt:notice] [pid 5592:tid 476] AH00418: Parent: Created child process 2104
+[Fri Apr 17 00:21:06.830222 2015] [mpm_winnt:notice] [pid 2104:tid 348] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 00:24:01.777870 2015] [mpm_winnt:notice] [pid 5592:tid 476] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 00:26:09.571402 2015] [core:warn] [pid 468:tid 336] AH00098: pid file C:/wamp/bin/apache/Apache2.4.4/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 17 00:26:09.618202 2015] [mpm_winnt:notice] [pid 468:tid 336] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 00:26:09.618202 2015] [mpm_winnt:notice] [pid 468:tid 336] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 00:26:09.618202 2015] [core:notice] [pid 468:tid 336] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 00:26:09.618202 2015] [mpm_winnt:notice] [pid 468:tid 336] AH00418: Parent: Created child process 2292
+[Fri Apr 17 00:26:10.211003 2015] [mpm_winnt:notice] [pid 2292:tid 352] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 00:36:52.734734 2015] [mpm_winnt:notice] [pid 468:tid 336] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 00:36:54.762738 2015] [mpm_winnt:notice] [pid 2292:tid 352] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 00:36:54.778338 2015] [mpm_winnt:notice] [pid 468:tid 336] AH00430: Parent: Child process 2292 exited successfully.
+[Fri Apr 17 00:36:56.353940 2015] [mpm_winnt:notice] [pid 8788:tid 476] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 00:36:56.353940 2015] [mpm_winnt:notice] [pid 8788:tid 476] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 00:36:56.353940 2015] [core:notice] [pid 8788:tid 476] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 00:36:56.369541 2015] [mpm_winnt:notice] [pid 8788:tid 476] AH00418: Parent: Created child process 1356
+[Fri Apr 17 00:36:56.915541 2015] [mpm_winnt:notice] [pid 1356:tid 352] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 00:43:53.758135 2015] [mpm_winnt:notice] [pid 8788:tid 476] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 00:43:55.786139 2015] [mpm_winnt:notice] [pid 1356:tid 352] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 00:43:55.801739 2015] [mpm_winnt:notice] [pid 8788:tid 476] AH00430: Parent: Child process 1356 exited successfully.
+[Fri Apr 17 00:43:57.065341 2015] [mpm_winnt:notice] [pid 6960:tid 476] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 00:43:57.065341 2015] [mpm_winnt:notice] [pid 6960:tid 476] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 00:43:57.065341 2015] [core:notice] [pid 6960:tid 476] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 00:43:57.065341 2015] [mpm_winnt:notice] [pid 6960:tid 476] AH00418: Parent: Created child process 2292
+[Fri Apr 17 00:43:57.626942 2015] [mpm_winnt:notice] [pid 2292:tid 352] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 00:57:24.021081 2015] [mpm_winnt:notice] [pid 6960:tid 476] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 00:57:26.049085 2015] [mpm_winnt:notice] [pid 2292:tid 352] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 00:57:26.064685 2015] [mpm_winnt:notice] [pid 6960:tid 476] AH00430: Parent: Child process 2292 exited successfully.
+[Fri Apr 17 00:57:26.626286 2015] [mpm_winnt:notice] [pid 6264:tid 472] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 00:57:26.626286 2015] [mpm_winnt:notice] [pid 6264:tid 472] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 00:57:26.626286 2015] [core:notice] [pid 6264:tid 472] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 00:57:26.626286 2015] [mpm_winnt:notice] [pid 6264:tid 472] AH00418: Parent: Created child process 1352
+[Fri Apr 17 00:57:27.172287 2015] [mpm_winnt:notice] [pid 1352:tid 348] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 01:03:30.987616 2015] [:error] [pid 1352:tid 1548] [client 127.0.0.1:53663] PHP Notice:  Undefined index: APPLICATION_ENV in C:\\wamp\\www\\index.php on line 6
+[Fri Apr 17 01:03:30.987616 2015] [:error] [pid 1352:tid 1548] [client 127.0.0.1:53663] PHP Stack trace:
+[Fri Apr 17 01:03:30.987616 2015] [:error] [pid 1352:tid 1548] [client 127.0.0.1:53663] PHP   1. {main}() C:\\wamp\\www\\index.php:0
+[Fri Apr 17 01:04:31.070624 2015] [:error] [pid 1352:tid 1556] [client 127.0.0.1:53674] PHP Notice:  Undefined index: APPLICATION_ENV in C:\\wamp\\www\\index.php on line 6
+[Fri Apr 17 01:04:31.070624 2015] [:error] [pid 1352:tid 1556] [client 127.0.0.1:53674] PHP Stack trace:
+[Fri Apr 17 01:04:31.070624 2015] [:error] [pid 1352:tid 1556] [client 127.0.0.1:53674] PHP   1. {main}() C:\\wamp\\www\\index.php:0
+[Fri Apr 17 09:36:08.223045 2015] [mpm_winnt:notice] [pid 6264:tid 472] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 09:36:11.124211 2015] [mpm_winnt:notice] [pid 1352:tid 348] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 09:36:11.153212 2015] [mpm_winnt:notice] [pid 6264:tid 472] AH00430: Parent: Child process 1352 exited successfully.
+[Fri Apr 17 09:36:13.040320 2015] [mpm_winnt:notice] [pid 8848:tid 476] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 09:36:13.040320 2015] [mpm_winnt:notice] [pid 8848:tid 476] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 09:36:13.040320 2015] [core:notice] [pid 8848:tid 476] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 09:36:13.043320 2015] [mpm_winnt:notice] [pid 8848:tid 476] AH00418: Parent: Created child process 7220
+[Fri Apr 17 09:36:13.782363 2015] [mpm_winnt:notice] [pid 7220:tid 348] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 09:41:45.041310 2015] [:error] [pid 7220:tid 1524] [client 127.0.0.1:55114] PHP Notice:  Undefined index: APPLICATION_ENV in C:\\wamp\\www\\index.php on line 6, referer: http://webflix/account
+[Fri Apr 17 09:41:45.041310 2015] [:error] [pid 7220:tid 1524] [client 127.0.0.1:55114] PHP Stack trace:, referer: http://webflix/account
+[Fri Apr 17 09:41:45.041310 2015] [:error] [pid 7220:tid 1524] [client 127.0.0.1:55114] PHP   1. {main}() C:\\wamp\\www\\index.php:0, referer: http://webflix/account
+[Fri Apr 17 09:45:59.255850 2015] [mpm_winnt:notice] [pid 8848:tid 476] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 09:46:01.257964 2015] [mpm_winnt:notice] [pid 7220:tid 348] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 09:46:01.285966 2015] [mpm_winnt:notice] [pid 8848:tid 476] AH00430: Parent: Child process 7220 exited successfully.
+[Fri Apr 17 09:46:03.381086 2015] [mpm_winnt:notice] [pid 4300:tid 476] AH00455: Apache/2.4.4 (Win32) PHP/5.4.16 configured -- resuming normal operations
+[Fri Apr 17 09:46:03.381086 2015] [mpm_winnt:notice] [pid 4300:tid 476] AH00456: Server built: Feb 23 2013 13:07:34
+[Fri Apr 17 09:46:03.381086 2015] [core:notice] [pid 4300:tid 476] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.4\\bin\\httpd.exe -d C:/wamp/bin/apache/Apache2.4.4'
+[Fri Apr 17 09:46:03.384086 2015] [mpm_winnt:notice] [pid 4300:tid 476] AH00418: Parent: Created child process 6492
+[Fri Apr 17 09:46:04.148130 2015] [mpm_winnt:notice] [pid 6492:tid 352] AH00354: Child: Starting 150 worker threads.
+[Fri Apr 17 16:58:53.189612 2015] [:error] [pid 6492:tid 1556] [client 127.0.0.1:49911] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to load ZF2. Run `php composer.phar install` or define a ZF2_PATH environment variable.' in C:\\wamp\\www\\init_autoloader.php:53\nStack trace:\n#0 C:\\wamp\\www\\index.php(23): require()\n#1 {main}\n  thrown in C:\\wamp\\www\\init_autoloader.php on line 53, referer: http://webflix/movie/1246
+[Fri Apr 17 16:59:01.213047 2015] [:error] [pid 6492:tid 1556] [client 127.0.0.1:49912] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to load ZF2. Run `php composer.phar install` or define a ZF2_PATH environment variable.' in C:\\wamp\\www\\init_autoloader.php:53\nStack trace:\n#0 C:\\wamp\\www\\index.php(23): require()\n#1 {main}\n  thrown in C:\\wamp\\www\\init_autoloader.php on line 53
