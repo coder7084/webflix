@@ -4,6 +4,7 @@ namespace Account\Form;
 
 use Zend\Form\Form;
 
+
  class AccountForm extends Form
  {
      public function __construct($name = null)
@@ -17,8 +18,8 @@ use Zend\Form\Form;
               'options' => array(
                  'label' => 'Account # ',   
              ), 
-             'attributes' => array(
-               //'id' => 'account_id',     
+             'attributes' => array(               
+                'readonly' => true,   
              )
          ));
          $this->add(array(
@@ -61,7 +62,7 @@ use Zend\Form\Form;
              'type' => 'Text',
              'options' => array(
                  'label' => 'City ',
-             ),
+             ), 
          ));
           $this->add(array(
              'name' => 'state',
@@ -69,6 +70,7 @@ use Zend\Form\Form;
              'options' => array(
                  'label' => 'State ',
              ),
+              
          ));
           $this->add(array(
              'name' => 'zip',
@@ -98,5 +100,7 @@ use Zend\Form\Form;
              'name' => 'movie_id_3',
              'type' => 'Hidden'             
          )); 
+          
+       
      }
  }
