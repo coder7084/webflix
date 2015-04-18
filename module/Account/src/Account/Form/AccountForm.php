@@ -14,13 +14,11 @@ use Zend\Form\Form;
 
          $this->add(array(
              'name' => 'id',
-             'type' => 'Text',
+             'type' => 'Text',             
               'options' => array(
                  'label' => 'Account # ',   
              ), 
-             'attributes' => array(               
-                'readonly' => true,   
-             )
+             
          ));
          $this->add(array(
              'name' => 'first_name',

@@ -59,6 +59,7 @@ class AccountTable
         ); 
         
         $id = (String) $account->id;
+        //var_dump($id); exit;
         
        if ( $this->getAccount($id) === FALSE ) 
         {

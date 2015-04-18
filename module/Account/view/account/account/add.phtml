@@ -5,7 +5,7 @@
  $this->headTitle($title);
  ?>
  <?php echo $this->headLink()->appendStylesheet('/css/general.css') ?>  
- <?php echo $this->inlineScript()->appendFile('/../js/general.js') ?>   
+ <?php echo $this->inlineScript()->appendFile('/js/general.js') ?>   
  
  <h1><?php echo $this->escapeHtml($title); ?></h1>
  
@@ -14,9 +14,9 @@
  $form->prepare();
 
  echo $this->form()->openTag($form);
- echo $this->formRow($form->get('id')) . "</br>"; 
- echo $this->formRow($form->get('first_name')) . "</br>";
- //echo $this->formRow($form->get('middle_initial'));
+ echo $this->formRow($form->get('id')); 
+ echo $this->formLabel($element). "</br>";
+ echo $this->formRow($form->get('first_name')) . "</br>"; 
  echo $this->formRow($form->get('last_name')) . "</br>";
  echo $this->formRow($form->get('street')). "</br>";
  echo $this->formRow($form->get('apt_no')). "</br>";   
