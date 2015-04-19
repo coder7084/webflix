@@ -21,8 +21,8 @@ class AccountTable
 
     public function getAccount($id)
     {
-        //$id  = (String) $id;
-        //var_dump($id);
+        $id  = (int) $id;
+        //var_dump($id);exit; // Problematic spot
         $rowset = $this->tableGateway->select(array('id' => $id));
         //var_dump($rowset);exit;
         $row = $rowset->current();  
@@ -39,8 +39,10 @@ class AccountTable
     {   
         date_default_timezone_set('US/Central');  
         
+        //var_dump($account); exit;
+       
         $data = array(
-        'id' => $account->id,
+        'id' => (int) $account->id,
         'first_name' => $account->first_name,
         //'middle_initial' => $account->middle_initial,
         'last_name'  => $account->last_name,
@@ -58,9 +60,8 @@ class AccountTable
          'movie_id_3' => $account->movie_id_3,
         ); 
         
-        $id = (String) $account->id;
-        //var_dump($id); exit;
-        
+        $id = (int) $account->id;        
+         
        if ( $this->getAccount($id) === FALSE ) 
         {
             //Only for new accounts
@@ -69,7 +70,7 @@ class AccountTable
               'exp_date' => '99991231', //date('Y-m-d', strtotime('+1 month')),
               'balance' => '10.00',
             )); */
-            
+           
             $this->tableGateway->insert($data);
         } else {
             if ($this->getAccount($id)) {

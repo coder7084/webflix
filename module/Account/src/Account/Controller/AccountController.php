@@ -63,7 +63,7 @@ class AccountController extends AbstractActionController
     {
         //var_dump($_POST); exit;
 
-        $id = $this->params()->fromRoute('id', 0);
+        $id = (int) $this->params()->fromRoute('id', 0);
         if (!$id)
         {
             return $this->redirect()->toRoute('account', array(
