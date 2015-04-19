@@ -4,6 +4,8 @@ namespace Account\Model;
 
 use Zend\Db\TableGateway\TableGateway;
 
+use Zend\Db\Sql\Sql;
+
 class AccountTable
 {
     protected $tableGateway;
@@ -14,9 +16,16 @@ class AccountTable
     }
 
     public function fetchAll()
-    {
-        $resultSet = $this->tableGateway->select();
-        return $resultSet;
+    {      
+        $adapter = $this->tableGateway->getAdapter();        
+        $sql = new Sql($adapter, 'Account');
+        $select = $sql->select();         
+        $select->order('last_accessed ASC');
+
+        $selectString = $sql->getSqlStringForSqlObject($select);
+        $resultSet = $adapter->query($selectString, $adapter::QUERY_MODE_EXECUTE);
+
+         return $resultSet;
     }
 
     public function getAccount($id)
