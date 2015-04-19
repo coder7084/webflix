@@ -14,9 +14,14 @@ use Zend\Form\Form;
 
          $this->add(array(
              'name' => 'id',
-             'type' => 'Text',             
+             'type' => 'Text',
+             'attributes' => array(
+                 'disabled' => true,
+                'class' => 'account_id'
+             ),
               'options' => array(
                  'label' => 'Account # ',   
+                 
              ), 
              
          ));
