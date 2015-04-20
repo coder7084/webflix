@@ -26,8 +26,6 @@ class AccountController extends AbstractActionController
         $form = new AccountForm();
         $form->get('submit')->setValue('Add');
 
-
-
         $element = new Element\Text('my-text');
         $element->setLabel('Please note your account #')
                 ->setLabelAttributes(array('class' => 'note-label'));
