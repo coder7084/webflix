@@ -3131,3 +3131,15 @@
 127.0.0.1 - - [19/Apr/2015:01:21:02 -0500] "GET /movie/810853750 HTTP/1.1" 200 2958
 127.0.0.1 - - [19/Apr/2015:01:21:05 -0500] "POST /account/edit/810853750 HTTP/1.1" 302 -
 127.0.0.1 - - [19/Apr/2015:01:21:05 -0500] "GET /account HTTP/1.1" 200 7512
+127.0.0.1 - - [19/Apr/2015:03:38:57 -0500] "GET /account HTTP/1.1" 200 7512
+127.0.0.1 - - [19/Apr/2015:03:38:57 -0500] "GET /css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Apr/2015:03:38:57 -0500] "GET /css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Apr/2015:03:38:57 -0500] "GET /js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Apr/2015:03:38:57 -0500] "GET /css/bootstrap-theme.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Apr/2015:03:38:57 -0500] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Apr/2015:03:39:02 -0500] "GET /account HTTP/1.1" 200 7512
+127.0.0.1 - - [19/Apr/2015:03:39:03 -0500] "GET /css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Apr/2015:03:39:03 -0500] "GET /css/bootstrap-theme.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Apr/2015:03:39:03 -0500] "GET /css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Apr/2015:03:39:03 -0500] "GET /js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Apr/2015:03:39:03 -0500] "GET /js/bootstrap.min.js HTTP/1.1" 304 -

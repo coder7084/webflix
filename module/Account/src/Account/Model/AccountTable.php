@@ -18,7 +18,7 @@ class AccountTable
     public function fetchAll()
     {      
         $adapter = $this->tableGateway->getAdapter();        
-        $sql = new Sql($adapter, 'Account');
+        $sql = new Sql($adapter, 'account');
         $select = $sql->select();         
         $select->order('last_accessed ASC');
 

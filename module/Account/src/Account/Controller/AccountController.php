@@ -113,7 +113,8 @@ class AccountController extends AbstractActionController
                 $this->getAccountTable()->saveAccount($account);
 
                 // Redirect to list of accounts
-                return $this->redirect()->toRoute('account');
+                return $this->redirect()->toRoute('account', array(
+                        'action' => 'index'));
             }
         }
 
