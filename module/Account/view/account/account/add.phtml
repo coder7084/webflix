@@ -1,0 +1,28 @@
+<?php
+ // module/Account/view/account/account/add.phtml:
+
+ $title = 'Add new account';
+ $this->headTitle($title);
+ ?>
+ <?php echo $this->headLink()->appendStylesheet('/css/general.css') ?>  
+ <?php echo $this->inlineScript()->appendFile('/js/general.js') ?>   
+ 
+ <h1><?php echo $this->escapeHtml($title); ?></h1>
+ 
+ <?php
+ $form->setAttribute('action', $this->url('account', array('action' => 'add')));
+ $form->prepare();
+
+ echo $this->form()->openTag($form);
+ echo $this->formRow($form->get('id')); 
+ echo $this->formLabel($element). "</br>";
+ echo $this->formRow($form->get('first_name')) . "</br>"; 
+ echo $this->formRow($form->get('last_name')) . "</br>";
+ echo $this->formRow($form->get('street')). "</br>";
+ echo $this->formRow($form->get('apt_no')). "</br>";   
+ echo $this->formRow($form->get('city')). "</br>";  
+ echo $this->formRow($form->get('state')). "</br>";     
+ echo $this->formRow($form->get('zip')). "</br>";          
+ echo $this->formSubmit($form->get('submit'));  
+ //echo $this->formCollection($form);
+ echo $this->form()->closeTag();

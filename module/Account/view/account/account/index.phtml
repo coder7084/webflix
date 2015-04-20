@@ -1,0 +1,38 @@
+<?php 
+$title = 'Webflix Accounts';
+ $this->headTitle($title);
+ ?>
+ <h1><?php echo $this->escapeHtml($title); ?></h1>
+ <p>
+     <a href="<?php echo $this->url('account', array('action'=>'add'));?>">Add new account</a>
+ </p>
+
+ <table class="table">
+ <tr>
+     <th>Account #</th>
+     <th>First Name</th>      
+     <th>Last Name</th>
+     <th>Effective Date</th> 
+     <th>First Movie</th> 
+     <th>Second Movie</th> 
+     <th>Third Movie</th> 
+     <th>Balance</th> 
+     <th>Last Accessed</th> 
+     <th>&nbsp;</th>
+ </tr>
+ <?php foreach ($accounts as $account) : ?>
+ <tr>
+     <td><?php echo $this->escapeHtml($account->id);?></td> 
+     <td><?php echo $this->escapeHtml($account->first_name);?></td>      
+     <td><?php echo $this->escapeHtml($account->last_name);?></td>
+     <td><?php echo $this->escapeHtml($account->eff_date);?></td>  
+     <td><?php echo $this->escapeHtml($account->movie_id_1);?></td>  
+     <td><?php echo $this->escapeHtml($account->movie_id_2);?></td>  
+     <td><?php echo $this->escapeHtml($account->movie_id_3);?></td>  
+     <!--<td><?php //echo $this->escapeHtml($account->exp_date);?></td>--> 
+     <td><?php echo $this->escapeHtml('$'. number_format($account->balance, 2, '.', ','));?></td> 
+     <td><?php echo $this->escapeHtml($account->last_accessed);?></td>    
+   
+ </tr>
+ <?php endforeach; ?>
+ </table>
