@@ -63,7 +63,7 @@ class AccountTable
         'last_accessed' => date('Y-m-d H:i:s', time()),
         'eff_date' => date('Y-m-d'),
          'exp_date' => '99991231', //date('Y-m-d', strtotime('+1 month')),
-         'balance' => '10.00',
+         'balance' => floatval($this->getBalance($account)),
          'movie_id_1' => $account->movie_id_1,
          'movie_id_2' => $account->movie_id_2,
          'movie_id_3' => $account->movie_id_3,
@@ -94,5 +94,21 @@ class AccountTable
     public function deleteAccount($id)
     {
         $this->tableGateway->delete(array('id' => (int) $id));
+    }
+    
+    public function getBalance(Account $account)
+    {
+        $balance = 0;
+        //var_dump($account);
+        for($i = 1; $i<=3; $i++)
+        {
+           echo $account->{'movie_id_'.$i};
+         if( isset($account->{'movie_id_'.$i}) && intval($account->{'movie_id_'.$i}) > 0 )
+           $balance = $balance - 2;
+        }
+         
+         //var_dump($balance); exit;
+         return $balance;
+        
     }
 }
