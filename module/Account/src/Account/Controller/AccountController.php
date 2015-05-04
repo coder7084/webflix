@@ -98,6 +98,7 @@ class AccountController extends AbstractActionController
                     if ($k <= 3)
                     {
                         $account->{'movie_id_' . $k} = $request->getPost('movie_id_' . $i);
+                        $account->{'price_' . $k} = $request->getPost('price_' . $i);
                         $k++;
                     }
                 }

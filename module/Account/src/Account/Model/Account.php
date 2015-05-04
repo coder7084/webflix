@@ -16,6 +16,7 @@ use Zend\InputFilter\InputFilterInterface;
      public $exp_date, $eff_date, $balance;
      public $last_accessed;
      public $movie_id_1, $movie_id_2, $movie_id_3;
+     public $price_1, $price_2, $price_3;
      protected $inputFilter;
 
      //Changes Table Column names to $data index/value pairs

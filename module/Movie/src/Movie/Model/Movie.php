@@ -11,6 +11,7 @@ use Zend\InputFilter\InputFilterInterface;
      public $id;
      public $year;
      public $title;
+     public $price;
      protected $inputFilter;
 
      public function exchangeArray($data)
@@ -18,6 +19,7 @@ use Zend\InputFilter\InputFilterInterface;
          $this->id     = (!empty($data['id'])) ? $data['id'] : null;
          $this->year = (!empty($data['year'])) ? $data['year'] : null;
          $this->title  = (!empty($data['title'])) ? $data['title'] : null;
+         $this->price  = (!empty($data['price'])) ? $data['price'] : null;
      }
      
      public function getArrayCopy()
@@ -78,6 +80,14 @@ use Zend\InputFilter\InputFilterInterface;
                              'max'      => 100,
                          ),
                      ),
+                 ),
+             ));
+             
+             $inputFilter->add(array(
+                 'name'     => 'price',
+                 'required' => true,
+                 'filters'  => array(
+                     array('name' => 'Float'),
                  ),
              ));
 

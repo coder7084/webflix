@@ -102,9 +102,9 @@ class AccountTable
         //var_dump($account);
         for($i = 1; $i<=3; $i++)
         {
-           echo $account->{'movie_id_'.$i};
+          // echo $account->{'movie_id_'.$i};
          if( isset($account->{'movie_id_'.$i}) && intval($account->{'movie_id_'.$i}) > 0 )
-           $balance = $balance - 2;
+           $balance = $balance - $account->{'price_'.$i};
         }
          
          //var_dump($balance); exit;

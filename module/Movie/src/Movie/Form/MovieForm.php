@@ -68,6 +68,11 @@ use Zend\Form\Form;
              'name' => 'movie_id_' .$i,
              'type' => 'Hidden'             
            ));
+           
+            $this->add(array(
+             'name' => 'price_' .$i,
+             'type' => 'Hidden'             
+           ));
          }
          
         /* $this->add(array(
@@ -79,5 +84,7 @@ use Zend\Form\Form;
              'name' => 'movie_id_3',
              'type' => 'Hidden'             
          )); */
+         
+         
      }
  }
